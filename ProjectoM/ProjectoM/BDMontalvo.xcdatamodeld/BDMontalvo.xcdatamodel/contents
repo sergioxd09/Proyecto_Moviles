@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20G1426" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Promo" representedClassName="Promo" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String"/>
+        <attribute name="fecha" optional="YES" attributeType="String"/>
+        <attribute name="nombre" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Sede" representedClassName="Sede" syncable="YES">
+        <attribute name="direccion" optional="YES" attributeType="String"/>
+        <attribute name="hora" optional="YES" attributeType="String"/>
+        <attribute name="nombre" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Servicios" representedClassName="Servicios" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String"/>
+        <attribute name="hora" optional="YES" attributeType="String"/>
+        <attribute name="servicio" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Trabajador" representedClassName="Trabajador" syncable="YES">
+        <attribute name="apellido" optional="YES" attributeType="String"/>
+        <attribute name="cargo" optional="YES" attributeType="String"/>
+        <attribute name="nombre" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Usuario" representedClassName="Usuario" syncable="YES">
+        <attribute name="apellido" optional="YES" attributeType="String"/>
+        <attribute name="celular" optional="YES" attributeType="String"/>
+        <attribute name="contrasena" optional="YES" attributeType="String"/>
+        <attribute name="dni" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="nombre" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Promo" positionX="-18" positionY="54" width="128" height="74"/>
+        <element name="Sede" positionX="-36" positionY="45" width="128" height="74"/>
+        <element name="Servicios" positionX="-54" positionY="36" width="128" height="74"/>
+        <element name="Trabajador" positionX="-63" positionY="27" width="128" height="74"/>
+        <element name="Usuario" positionX="-63" positionY="-18" width="128" height="119"/>
+    </elements>
+</model>
